@@ -1,0 +1,90 @@
+* {
+    box-sizing: border-box;
+  }
+body {
+    background-color: lightgrey;}
+form {
+    ;
+}
+.page-header {
+        font-family: sans-serif;
+}
+.header {
+    background-color: cadetblue;
+    font-family: 'Times New Roman', Times, serif;
+    color: white;
+    margin: 10px 50px;
+    padding: 0  20px;
+    font-weight: bold;
+    
+}
+
+
+h5 {
+    font-family: 'Times New Roman', Times, serif;
+    color: teal;
+    font-weight: bold;
+}
+
+h6 {
+    
+}
+.button {
+    background-color: cadetblue;
+    color: white;
+    margin: -10em 0;
+
+}
+.btn {
+    background-color: cadetblue;
+}
+.card-title {
+    color: cadetblue;
+
+}
+.card-body {
+    padding: 20px;
+     height: 400px;
+     
+}
+
+a.navbar-brand {
+    background-color: cadetblue;
+    color: white;
+    text-justify: auto;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 1em;
+    
+}
+
+.navbar-light .navbar-brand {
+    color: white;
+    font-weight: bold
+    ;
+}
+
+
+div.card {
+    
+        position: relative;
+        left: 15px;
+    
+      
+}
+ 
+.form-group {
+    margin-left: ;
+
+}
+  .footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 75px;
+    background-color: grey;
+    color: white;
+    text-align: center;
+ }
+
+ 
