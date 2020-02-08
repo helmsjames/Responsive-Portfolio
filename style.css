@@ -3,9 +3,7 @@
   }
 body {
     background-color: lightgrey;}
-form {
-    ;
-}
+
 .page-header {
         font-family: sans-serif;
 }
@@ -18,7 +16,17 @@ form {
     font-weight: bold;
     
 }
+h1 {
+    background-color: cadetblue;
+    margin: 0 auto;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    padding: 20px;
+    color: rgba(54, 61, 63, 0.795);
+}
 
+hr {
+ padding-top: 5px;
+}
 
 h5 {
     font-family: 'Times New Roman', Times, serif;
@@ -26,21 +34,16 @@ h5 {
     font-weight: bold;
 }
 
-h6 {
-    
-}
 .button {
     background-color: cadetblue;
     color: white;
     margin: -10em 0;
-
 }
 .btn {
     background-color: cadetblue;
 }
 .card-title {
     color: cadetblue;
-
 }
 .card-body {
     padding: 20px;
@@ -53,28 +56,16 @@ a.navbar-brand {
     color: white;
     text-justify: auto;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1em;
-    
+    padding: 1em;    
 }
 
 .navbar-light .navbar-brand {
     color: white;
-    font-weight: bold
-    ;
+    font-weight: bold;
 }
-
-
 div.card {
-    
         position: relative;
-        left: 15px;
-    
-      
-}
- 
-.form-group {
-    margin-left: ;
-
+        left: 15px;   
 }
   .footer {
     position: fixed;
@@ -85,6 +76,8 @@ div.card {
     background-color: grey;
     color: white;
     text-align: center;
+    padding-top: 10px;
+    border-top-color: aqua;
  }
 
  
