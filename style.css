@@ -1,83 +1,95 @@
-* {
-    box-sizing: border-box;
-  }
 body {
-    background-color: lightgrey;}
+    font-family: 'Noto Sans', sans-serif;    
+    background-color: rgba(62, 99, 136, 0.753);
+    color: rgb(207, 226, 226);   
+    padding-top: 70px;
+}
 
-.page-header {
-        font-family: sans-serif;
-}
-.header {
-    background-color: cadetblue;
-    font-family: 'Times New Roman', Times, serif;
-    color: white;
-    margin: 10px 50px;
-    padding: 0  20px;
-    font-weight: bold;
-    
-}
 h1 {
-    background-color: cadetblue;
-    margin: 0 auto;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    padding: 20px;
-    color: rgba(54, 61, 63, 0.795);
+    margin-top: 50px;
 }
 
+.navbar-custom { 
+    background-color: rgb(33, 40, 53);     
+} 
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    p {
+        font-size: 16px;
+        text-align: left;
+  } 
+  }
+  
+  /* Small devices (portrait tablets and large phones, 600px and up) */
+  @media only screen and (min-width: 600px) {
+    p {
+        font-size: 18px;
+        text-align: left;
+  } 
+  }
+  
+  
+  /* Medium devices (landscape tablets, 768px and up) */
+  @media only screen and (min-width: 768px) {
+    p {
+        font-size: 20px;
+        text-align: left;
+  } 
+}
+  
+  /* Large devices (laptops/desktops, 992px and up) */
+  @media only screen and (min-width: 992px) {
+    p {
+        font-size: 24px;
+        text-align: left;
+  } 
+}
+  
+  /* Extra large devices (large laptops and desktops, 1200px and up) */
+  @media only screen and (min-width: 1200px) {
+    p {
+        font-size: 28px;
+        text-align: justify;
+  }
+}
+p {    
+    font-size: 24px;
+    text-align: justify;
+}
+@media only screen and (max-width: 600px) {
+    p {
+      font-size: 18px;
+      text-align: left;
+      
+    }
+  }
 hr {
- padding-top: 5px;
+    border: 2px solid rgba(17, 40, 88, 0.733);
+    border-radius: 5px;
+}
+/* .img-fluid {    
+    float: left;    
+    height: auto;
+    max-width: 100%;
+} */
+.portrait {
+    float: left;
+
+}
+img {
+    vertical-align: middle;
+    border: white;
+    border-radius: 5px;
 }
 
-h5 {
-    font-family: 'Times New Roman', Times, serif;
-    color: teal;
-    font-weight: bold;
-}
-
-.button {
-    background-color: cadetblue;
-    color: white;
-    margin: -10em 0;
-}
-.btn {
-    background-color: cadetblue;
-}
-.card-title {
-    color: cadetblue;
-}
 .card-body {
-    padding: 20px;
-     height: 400px;
-     
-}
-
-a.navbar-brand {
-    background-color: cadetblue;
-    color: white;
-    text-justify: auto;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    padding: 1em;    
-}
-
-.navbar-light .navbar-brand {
-    color: white;
-    font-weight: bold;
-}
-div.card {
-        position: relative;
-        left: 15px;   
-}
-  .footer {
-    position: fixed;
-    left: 0;
-    bottom: 0;
-    width: 100%;
-    height: 75px;
-    background-color: grey;
-    color: white;
-    text-align: center;
+    margin-top: 10px;
     padding-top: 10px;
-    border-top-color: aqua;
- }
-
- 
+}
+footer {
+    margin-top: 10rem;
+    height: auto;
+    background-color: rgb(33, 40, 53);
+    position: sticky;    
+}
