@@ -1,8 +1,17 @@
+* {
+    margin: 0;
+    padding: 0;
+    
+}
+html, body {
+    height: 100%;
+}
+
 body {
     font-family: 'Noto Sans', sans-serif;    
     background-color: rgba(62, 99, 136, 0.753);
     color: rgb(207, 226, 226);   
-    padding-top: 70px;
+    padding-top: 60px;
 }
 
 h1 {
@@ -10,9 +19,16 @@ h1 {
 }
 
 .navbar-custom { 
+    margin-bottom: 10px;
     background-color: rgb(33, 40, 53);     
 } 
-
+.wrapper {
+    min-height: 100%;
+}
+.main {
+    overflow: auto;
+    padding: 100px;
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     p {
@@ -53,10 +69,7 @@ h1 {
         text-align: justify;
   }
 }
-p {    
-    font-size: 24px;
-    text-align: justify;
-}
+
 @media only screen and (max-width: 600px) {
     p {
       font-size: 18px;
@@ -64,6 +77,7 @@ p {
       
     }
   }
+  
 hr {
     border: 2px solid rgba(17, 40, 88, 0.733);
     border-radius: 5px;
@@ -77,18 +91,19 @@ hr {
     float: left;
 
 }
-img {
+/* img {
     vertical-align: middle;
     border: white;
     border-radius: 5px;
-}
+} */
 
 .card-body {
     margin-top: 10px;
-    padding-top: 10px;
+    padding: 10px;
+    background-color: transparent;
 }
 footer {
-    margin-top: 10rem;
+    margin-top: 2rem;
     height: auto;
     background-color: rgb(33, 40, 53);
     position: sticky;    
