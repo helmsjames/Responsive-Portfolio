@@ -1,17 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 
-  <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
-        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="style.css">
-    <!-- added Portfolio page title -->
-    <title>Portfolio</title>    
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+    integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link href="https://fonts.googleapis.com/css?family=Noto+Sans&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+  <!-- added Portfolio page title -->
+  <title>Portfolio</title>
 </head>
 
 <body>
@@ -45,43 +45,94 @@
     </div>
   </nav>
   <!-- end navbar -->
-    
-   <div class="container">
-  <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="./assets/Weather.png" alt="Card image cap">
-    <div class="card-body">
-      <h3 class="card-title">Weather Dashboard</h3>
-      <p class="card-text">Use the Weather Dashboard to get up to the minute weather in your city.</p>
-      <a href="https://helmsjames.github.io/Weather-Dashboard/" class="btn btn-primary">Weather App</a>
-    </div>
-  </div>
-  <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="./assets/codeQuiz.png" alt="Card image cap">
-    <div class="card-body">
-      <h3 class="card-title">Code Quiz</h3>
-      <p class="card-text">An application that uses Web APIs to test your knowledge on Javascript.</p>
-      <a href="https://helmsjames.github.io/Code-Quiz/" class="btn btn-primary">Code Quiz</a>
-    </div>
-  </div>
-  <div class="card" style="width: 20rem;">
-    <img class="card-img-top" src="./assets/workDayScheduler.gif" alt="Card image cap">
-    <div class="card-body">
-      <h3 class="card-title">Work Day Scheduler</h3>
-      <p class="card-text">The Work Day Scheduler is an appication built on third-party APIs, that allows you to create a "to-do list".</p>
-      <a href="https://helmsjames.github.io/Work-Day-Scheduler/" class="btn btn-primary">Work Day Scheduler</a>
-    </div>
-  </div>
-</div>
-<!-- created footer -->
-<footer class="text-center"><a class="fa fab fa-github fa-2x nav-link" href="https://github.com/helmsjames"></a>
-  © Copyright 2020
-  <a class="fa fab fa-linkedin fa-2x nav-link" href="https://www.linkedin.com/in/jameshelms01/"></a>
-</footer>
 
-<!-- jQuery CDN -->
-<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
-<!-- Bootstrap JavaScript CDN -->
-<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+  <h2 id="creations">
+    Below are a few of my creations
+  </h2>
+  <br>
+  <div class="container">
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/PasswordGenerator.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Password Generator</h3>
+        <p class="card-text">Use the Password Generator to make a password comprised of mixed-case characters.</p>
+        <a href="https://helmsjames.github.io/PasswordGenerator/" class="btn btn-primary">Password Generator</a>
+      </div>
+    </div>
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/FitnessTracker.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Fitness Tracker</h3>
+        <p class="card-text">Use the Fitness Tracker to keep track of your progress in your workouts.</p>
+        <a href="https://quiet-oasis-96954.herokuapp.com/" class="btn btn-primary">Fitness Tracker</a>
+      </div>
+    </div>
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/codeQuiz.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Code Quiz</h3>
+        <p class="card-text">Test your knowledge on JavaScript with a coding quiz challenge.</p>
+        <a href="https://helmsjames.github.io/Code-Quiz/" class="btn btn-primary">Code Quiz</a>
+      </div>
+    </div>
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/Weather.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Weather Dashboard</h3>
+        <p class="card-text">Use the Weather Dashboard to get up to the minute weather information in your city.</p>
+        <a href="https://helmsjames.github.io/Weather-Dashboard/" class="btn btn-primary">Weather App</a>
+      </div>
+    </div>
+
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/workDayScheduler.gif" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Work Day Scheduler</h3>
+        <p class="card-text">The Work Day Scheduler is an appication built on third-party APIs, that allows you to
+          create a "to-do list".</p>
+        <a href="https://helmsjames.github.io/Work-Day-Scheduler/" class="btn btn-primary">Work Day Scheduler</a>
+      </div>
+    </div>
+
+
+
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/BudgetTracker.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Budget Tracker</h3>
+        <p class="card-text">Keep up to date records of your expenses and income with the Budget Tracker.</p>
+        <a href="https://helmsjames.github.io/PasswordGenerator/" class="btn btn-primary">Budget Tracker</a>
+      </div>
+    </div>
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/EmployeeDirectory.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Employee Directory</h3>
+        <p class="card-text">View a list of all your employees and be able to sort them alphabetically.</p>
+        <a href="https://helmsjames.github.io/User-Directory/" class="btn btn-primary">Employee Directory</a>
+      </div>
+    </div>
+
+    <div class="card" id="card">
+      <img class="card-img-top" src="./assets/Burger.png" alt="Card image cap">
+      <div class="card-body">
+        <h3 class="card-title">Eat Da Burger!!!</h3>
+        <p class="card-text">Use the burger app to make a list of burgers you want to eat and to keep track of the
+          burgers you've already eaten.</p>
+        <a href="https://stormy-shelf-07487.herokuapp.com/" class="btn btn-primary">Burger App</a>
+      </div>
+    </div>
+  </div>
+  <!-- created footer -->
+  <footer class="text-center"><a class="fa fab fa-github fa-2x nav-link" href="https://github.com/helmsjames"></a>
+    © Copyright 2020
+    <a class="fa fab fa-linkedin fa-2x nav-link" href="https://www.linkedin.com/in/jameshelms01/"></a>
+  </footer>
+
+  <!-- jQuery CDN -->
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+  <!-- Bootstrap JavaScript CDN -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
 
 </html>
