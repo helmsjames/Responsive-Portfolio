@@ -40,13 +40,17 @@ A potential employer will visit your portfolio site to view your biography and t
 When the user visits the page they see your picture with a brief biography. When they click on the portfolio link they are presented with different apps or programs that you worked on. When they click on the contact link they are presented with a way to contact you via email.
 
 ##  GitHub Repo:
-[Responsive Portfolio](https://helmsjames.github.io/Responsive-Portfolio/) 
-(Click to open app)
+https://helmsjames.github.io/Responsive-Portfolio/ 
+
 
 ## Portfolio Page
 https://github.com/helmsjames
 
 ## Screenshots
-![Example screenshot](img1.png)
-![Example screenshot](img2.png)
-![Example gif](img3.gif)
+![Example screenshot](./assets/profileImage.png)
+
+
+![Example screenshot](./assets/portfolio.png)
+
+
+![Example screenshot](./assets/contact.png)
