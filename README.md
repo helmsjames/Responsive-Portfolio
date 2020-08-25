@@ -1,6 +1,6 @@
 # Portfolio
 
-Unit 02 CSS and Bootstrap Homework: Responsive Portfolio
+CSS and Bootstrap - Responsive Portfolio
 ## Table of contents
 * [General info](#general-info)  
 * [User Story](#user-story)  
