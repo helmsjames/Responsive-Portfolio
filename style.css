@@ -62,9 +62,13 @@ p.card-text.bio {
       border-bottom: solid black 1px;
   }
 
+  h3.card-title {
+    color: rgb(76, 83, 85);
+  }
+
 p.card-text {
-    font-size: 22px;
-    text-align: left;
+    font-size: 17px;
+    text-align: center;
     padding-bottom: 5px;
     
 }
