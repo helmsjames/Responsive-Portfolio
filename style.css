@@ -79,6 +79,10 @@ p.card-text {
     margin: 20px;
 }
 
+.fa.fa-github.fa-3x {
+    margin-top: 1rem;
+}
+
 #creations {
     margin-top: 2rem;
 }
